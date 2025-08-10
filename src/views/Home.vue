@@ -8,7 +8,7 @@
       <div class="relative max-w-8xl mx-auto px-6 py-24 lg:py-32">
         <div class="max-w-4xl">
                      <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-             Investuokite į nekilnojamąjį turtą nuo 100€
+             Investuokite į nekilnojamąjį turtą vos nuo 100€
            </h1>
            <p class="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
              Investuokite į patikimus verslo paskolas, užtikrintas nekilnojamuoju turtu.
@@ -202,8 +202,8 @@
 
                           <div class="bg-gradient-to-r from-green-50 to-green-100 rounded-2xl p-8 md:p-12">
            <div class="text-center max-w-4xl mx-auto">
-             <div class="bg-gradient-to-r from-green-600 to-green-700 rounded-xl p-6 mb-6 inline-block">
-               <img src="https://cdn.trustpilot.net/brand-assets/4.3.0/logo-white.svg" alt="Trustpilot" class="h-12 w-auto" />
+             <div class="bg-gradient-to-r from-green-600 to-green-700 rounded-lg p-3 mb-6 inline-block">
+               <img src="https://cdn.trustpilot.net/brand-assets/4.3.0/logo-white.svg" alt="Trustpilot" class="h-8 w-auto" />
              </div>
              
              <div class="flex items-center justify-center mb-6">

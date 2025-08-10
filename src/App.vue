@@ -138,7 +138,7 @@ const mobileMenuOpen = ref(false)
               <img src="https://rontgen.lt/lending/img/logo_white.png" alt="Rontgen" class="h-10 w-auto" />
             </div>
             <p class="text-gray-200 mb-4 leading-relaxed">
-              Investuokite į nekilnojamąjį turtą nuo 100€. Visi projektai yra patikrinti, 
+              Investuokite į nekilnojamąjį turtą vos nuo 100€. Visi projektai yra patikrinti, 
               hipoteka užtikrinti ir aiškūs.
             </p>
             <div class="flex space-x-4">

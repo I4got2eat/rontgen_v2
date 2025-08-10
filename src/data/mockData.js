@@ -3,6 +3,144 @@
 export const projects = [
   {
     id: 1,
+    title: "Panemunės apartamentai V",
+    location: "Kaunas, Panemunė",
+    rate: 8.5,
+    term: 12,
+    collateral: "Pirmas hipotekos rangas",
+    valuation: 1699164,
+    goal: 180000,
+    funded: 160600,
+    status: "Atidarytas",
+    rating: "B",
+    minInvestment: 100,
+    remainingDays: 27,
+    description: "Gyvenamosios paskirties 5 a. daugiabutis su komercinėmis patalpomis ir požeminėmis parkavimo vietomis. Antžeminės pastatų dalies parduodamas plotas sudarys 3 901 kv.m (butai ir komercinės patalpos), požeminės dalies bendras parduodamas plotas - 2 041 kv.m (parkavimo vietos ir sandėliukai). Pirkėjams bus siūlomi 1-4 kambarių butai, kurių plotai svyruos nuo 27 iki 98 kv.m. 2025 m. kovo mėn. projektui buvo patvirtintas SLD ir pradėti statybos darbai. Planuojama didžiąją dalį statybos darbų atlikti per 2025 m. Numatyta projekto statybos darbų trukmė sudarys 12 mėn., pastatą priduoti planuojama per 2026 m. IIQ.",
+    purpose: "Vystymo finansavimas",
+    developer: "UAB „Avadi\"",
+    images: [
+      "https://rontgen.lt/lt/files/view/423293",
+      "https://rontgen.lt/lt/files/view/423293",
+      "https://rontgen.lt/lt/files/view/423293"
+    ],
+    documents: ["vertinimo-ataskaita.pdf", "hipotekos-sutartis.pdf"],
+    risks: [
+      "Statybos darbų vėlavimas",
+      "Rinkos sąlygų pokyčiai",
+      "Valiutos svyravimai"
+    ],
+    updates: [
+      {
+        date: "2025-01-15",
+        title: "Statybos progresas",
+        content: "Projektui buvo patvirtintas SLD ir pradėti statybos darbai. Planuojama didžiąją dalį statybos darbų atlikti per 2025 m."
+      }
+    ],
+    investmentType: "Vystymo paskola su pirminiu turto įkeitimu",
+    ltv: 63,
+    maxLtv: 70,
+    interestSchedule: [
+      "2025.10.01 – palūkanų išmokėjimas",
+      "2026.01.01 – palūkanų išmokėjimas", 
+      "2026.04.01 – palūkanų išmokėjimas",
+      "2026.07.01 – palūkanų išmokėjimas",
+      "2026.08.20 – palūkanų išmokėjimas ir paskolos grąžinimas"
+    ]
+  },
+  {
+    id: 2,
+    title: "UAB NT reikalas projektai I",
+    location: "Vilnius, Vilkpėdės raj.",
+    rate: 9.0,
+    term: 12,
+    collateral: "Pirmas hipotekos rangas",
+    valuation: 1275314,
+    goal: 806000,
+    funded: 129100,
+    status: "Atidarytas",
+    rating: "B",
+    minInvestment: 100,
+    remainingDays: 19,
+    description: "Keli, vienu metu vystomi NT projektai gerose lokacijose Vilniuje ir Vilniaus rajone. Ši paskola formuojama krepšelio principu. Krepšelio principo paskolos nurodo, kad kituose finansavimo etapuose gali būti įkeičiama papildoma paskolos užtikrinimo priemonė arba pakeičiama esama paskolos užtikrinimo priemonė su sąlyga, kad paskolos ir įkeičiamo turto vertės santykis neviršija maksimalaus.",
+    purpose: "Esamos paskolos pratęsimas ir projekto įsigijimo finansavimas",
+    developer: "UAB „NT reikalas\"",
+    images: [
+      "https://rontgen.lt/lt/files/view/423331",
+      "https://rontgen.lt/lt/files/view/423331",
+      "https://rontgen.lt/lt/files/view/423331"
+    ],
+    documents: ["vertinimo-ataskaita.pdf", "hipotekos-sutartis.pdf"],
+    risks: [
+      "Projekto įgyvendinimo vėlavimas",
+      "Rinkos sąlygų pokyčiai",
+      "Finansavimo sąlygų pokyčiai"
+    ],
+    updates: [
+      {
+        date: "2025-01-10",
+        title: "Projekto pradžia",
+        content: "Pradėtas naujo NT projekto įsigijimas Vilniuje, Savanorių pr. Paskola formuojama krepšelio principu."
+      }
+    ],
+    investmentType: "Paskola su turto įkeitimu",
+    ltv: 63,
+    maxLtc: 70,
+    interestSchedule: [
+      "2025.10.01 – palūkanų išmokėjimas",
+      "2026.01.01 – palūkanų išmokėjimas",
+      "2026.04.01 – palūkanų išmokėjimas", 
+      "2026.07.01 – palūkanų išmokėjimas",
+      "2026.08.20 – palūkanų išmokėjimas ir paskolos grąžinimas"
+    ]
+  },
+  {
+    id: 3,
+    title: "Sklypas Justiniškių 136 I",
+    location: "Vilnius, Justiniškės",
+    rate: 9.5,
+    term: 12,
+    collateral: "Pirmas hipotekos rangas",
+    valuation: 3410000,
+    goal: 1040000,
+    funded: 1103900,
+    status: "Pilnai finansuotas",
+    rating: "B+",
+    minInvestment: 100,
+    remainingDays: 0,
+    description: "UAB „Groupinvest\" priklauso žemės sklypas Pašilaičių mikrorajone su patvirtintais projektiniais pasiūlymais, kuriame planuojama daugiabučių namų statyba. I-ojo etapo lėšos skirtos projekto savininko paskolos kitoje kredito įstaigoje refinansavimui. Įkeičiamas objektas yra vienoje iš didelį vystymo potencialą turinčių teritorijų Vilniuje. Sklypo kaimynystėje kiti NT vystytojai (Realco, Bonava, Eriadas, Omberg, Citus) plėtoja gyvenamojo NT kvartalus (Just in, Green wave, Justiniškių 134).",
+    purpose: "Refinansavimui ir apyvartinėms lėšoms",
+    developer: "UAB „Groupinvest\"",
+    images: [
+      "https://rontgen.lt/lt/files/view/416529",
+      "https://rontgen.lt/lt/files/view/416529",
+      "https://rontgen.lt/lt/files/view/416529"
+    ],
+    documents: ["vertinimo-ataskaita.pdf", "hipotekos-sutartis.pdf"],
+    risks: [
+      "Refinansavimo sąlygų pokyčiai",
+      "Rinkos sąlygų pokyčiai",
+      "Projekto vystymo vėlavimas"
+    ],
+    updates: [
+      {
+        date: "2025-01-05",
+        title: "Projektas pilnai finansuotas",
+        content: "Projektas sėkmingai pilnai finansuotas! Lėšos skirtos refinansavimui ir apyvartinėms lėšoms."
+      }
+    ],
+    investmentType: "Paskola su turto įkeitimu",
+    ltv: 30,
+    maxLtv: 60,
+    interestSchedule: [
+      "2025.10.01 – palūkanų išmokėjimas",
+      "2026.01.01 – palūkanų išmokėjimas",
+      "2026.04.01 – palūkanų išmokėjimas",
+      "2026.07.01 – palūkanų išmokėjimas", 
+      "2026.08.10 – palūkanų išmokėjimas ir paskolos grąžinimas"
+    ]
+  },
+  {
+    id: 4,
     title: "Vilniaus Gyvenamasis Kompleksas II Faza",
     location: "Vilnius, Naujamiestis",
     rate: 10.5,
@@ -38,7 +176,7 @@ export const projects = [
     ]
   },
   {
-    id: 2,
+    id: 5,
     title: "Kauno Verslo Centras",
     location: "Kaunas, Centras",
     rate: 9.8,
@@ -72,7 +210,7 @@ export const projects = [
     ]
   },
   {
-    id: 3,
+    id: 6,
     title: "Klaipėdos Pramogų Kompleksas",
     location: "Klaipėda, Smiltynė",
     rate: 12.2,
@@ -107,7 +245,7 @@ export const projects = [
     ]
   },
   {
-    id: 4,
+    id: 7,
     title: "Šiaulių Gyvenamasis Kvartalas",
     location: "Šiauliai, Naujamiestis",
     rate: 8.9,
@@ -141,7 +279,7 @@ export const projects = [
     ]
   },
   {
-    id: 5,
+    id: 8,
     title: "Panevėžio Verslo Parkas",
     location: "Panevėžys, Pramonės zona",
     rate: 10.8,
@@ -175,7 +313,7 @@ export const projects = [
     ]
   },
   {
-    id: 6,
+    id: 9,
     title: "Alytaus Gyvenamasis Kompleksas",
     location: "Alytus, Naujamiestis",
     rate: 11.2,
