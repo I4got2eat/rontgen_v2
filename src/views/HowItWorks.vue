@@ -275,3 +275,4 @@
 <script setup>
 // No additional logic needed for How It Works page
 </script>
+

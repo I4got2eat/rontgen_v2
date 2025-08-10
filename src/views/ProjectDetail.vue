@@ -60,18 +60,20 @@
           <!-- Tabs -->
           <div class="card">
             <div class="border-b border-gray-200">
-              <nav class="flex space-x-8 px-6">
-                <button 
-                  v-for="tab in tabs" 
-                  :key="tab.id"
-                  @click="activeTab = tab.id"
-                  class="py-4 px-1 border-b-2 font-medium text-sm transition-colors duration-200"
-                  :class="activeTab === tab.id 
-                    ? 'border-primary-500 text-primary-600' 
-                    : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'"
-                >
-                  {{ tab.name }}
-                </button>
+              <nav class="flex overflow-x-auto scrollbar-hide px-4 md:px-6">
+                <div class="flex space-x-4 md:space-x-8 min-w-max">
+                  <button 
+                    v-for="tab in tabs" 
+                    :key="tab.id"
+                    @click="activeTab = tab.id"
+                    class="py-4 px-2 md:px-1 border-b-2 font-medium text-sm transition-colors duration-200 whitespace-nowrap"
+                    :class="activeTab === tab.id 
+                      ? 'border-primary-500 text-primary-600' 
+                      : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'"
+                  >
+                    {{ tab.name }}
+                  </button>
+                </div>
               </nav>
             </div>
 

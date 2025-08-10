@@ -377,3 +377,4 @@ const resetFilters = () => {
   sortBy.value = 'newest'
 }
 </script>
+

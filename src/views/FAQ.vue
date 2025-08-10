@@ -185,3 +185,4 @@
 <script setup>
 // No additional logic needed for FAQ page
 </script>
+
