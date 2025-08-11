@@ -180,7 +180,7 @@ const mobileMenuOpen = ref(false)
         <div class="border-t border-primary-600 mt-8 pt-8 text-center text-gray-200">
           <p class="text-sm">
             Investicijos nėra draudžiamos. Ankstesni rezultatai negarantuoja ateities grąžos. 
-            © 2024 Rontgen UAB. Visos teisės saugomos.
+            © 2025 Rontgen UAB. Visos teisės saugomos.
           </p>
         </div>
       </div>
